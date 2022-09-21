@@ -1,0 +1,274 @@
+#product-main{
+    width: 100%;
+    height: 2500px;
+}
+#product-h1{
+    width: 314.07px;
+    height: 56px;
+    margin: 95px 0 0 135px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #707070;
+	-webkit-text-fill-color: transparent;
+}
+#product-h2{
+    width: 310px;
+    height: 56px;
+    margin: 0 0 0 313px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px 0 0 220px;
+
+}
+#product-h2-line{
+    width: 480px;
+    height: 0px;
+    margin: -28px 0 0 133px;
+    border: 1.6px solid #FFFFFF;
+}
+#products-numb{
+    width: 24px;
+    height: 30px;
+    
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    
+    /* NeuWhite */
+    
+    color: #FFFFFF;
+    
+    opacity: 0.4;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#productsname{
+    width: 549px;
+height: 64px;
+
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+/* NeuWhite */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+#produtcs{
+    display: flex;
+    border: 1px solid #b3adad;
+    margin: 20px 0 0 159px;
+    width:10%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#product-para{
+    width: 468.64px;
+    height: 1000px;
+    left: 198px;
+    top: 408px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin: 35px 0 0 204px;
+    
+}
+#productviewmore{
+    width: 290px;
+    height: 320px;
+    left: 1070px;
+    top: 408px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    margin: 220px 0 0 274px;
+    border-top-left-radius: 90px;
+}
+#product-box-content{
+    width: 321px;
+    height: 398px;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Calibri';
+    letter-spacing: 1px;
+    align-items: center;
+    margin: 65px;
+
+}
+#second-main{
+    display: flex;
+    background-color: #333333;
+    height: 100vh;
+}
+#products-numbers2{
+    width: 24px;
+    height: 30px;
+    
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    
+    /* NeuWhite */
+    
+    color: #FFFFFF;
+    
+    opacity: 0.4;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#products-name2{
+    width: 549px;
+height: 64px;
+
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+/* NeuWhite */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+text-decoration: none;
+
+}
+#produtcs2{
+    display: flex;
+    border: 1px solid #b3adad;
+    margin: 50px 0 0 159px;
+    width:100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#product-viewmore2{
+    width: 290px;
+    height: 320px;
+    left: 1070px;
+    top: 408px;
+    background: white;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    margin: 125px 0 0 274px;
+    border-top-left-radius: 90px;
+}
+.product-link{
+    font-Size:'15px';
+    color:white;
+    font-family: 'Calibri';
+    margin: 0 0 0 300px;
+}
+/* Tab setting */
+@media (max-width: 768px) {
+    #productviewmore {
+        width: 290px;
+        height: 320px;
+        left: 1070px;
+        top: 408px;
+        background: white;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+        margin: 220px 0 0 160px;
+        border-top-left-radius: 90px;
+    }
+    #product-box-content {
+        width: 321px;
+        height: 398px;
+        border: 1px solid white;
+        color: white;
+        font-family: 'Calibri';
+        letter-spacing: 1px;
+        align-items: center;
+        margin: 50px;
+    }
+    #produtcs2 {
+        display: flex;
+        border: 1px solid #b3adad;
+        margin: 20px 0 0 159px;
+        width: 70%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    #product-viewmore2 {
+        width: 290px;
+        height: 320px;
+        left: 1070px;
+        top: 408px;
+        background: white;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+        margin: 125px 0 0 61px;
+        border-top-left-radius: 90px;
+    }
+    .product-link{
+        font-Size:'15px';
+        color:white;
+        font-family: 'Calibri';
+        margin: 0 0 0 170px;
+    }
+}

@@ -1,0 +1,102 @@
+#about-main{
+background-color: black;
+width: 100%;
+height: 690px;
+}
+#about-content{
+    position: absolute;
+width: 1060px;
+height: 264px;
+left: 193px;
+top: 204px;
+
+/* #1/H2/Bold/Outline */
+
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 88px;
+line-height: 100%;
+/* or 88px */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+margin-top: 875px;
+-webkit-text-stroke: 1px #9f9f9f;
+	-webkit-text-fill-color: transparent;
+}
+#about-mid-text{
+    position: absolute;
+    width: 420px;
+    height: 88px;
+    left: 465.31px;
+    top: 1168px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#about-solution-line{
+    position: absolute;
+    width: 536px;
+    height: 0px;
+    left: 397.31px;
+    top: 1217px;
+    background: #FFFFFF;
+    border: 1.6px solid #FFFFFF;
+}
+/* Tab setting */
+@media (max-width: 768px) {
+    #about-content {
+        position: absolute;
+        width: 1060px;
+        height: 264px;
+        left: 115px;
+        top: 204px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        margin-top: 875px;
+        -webkit-text-stroke: 1px #9f9f9f;
+        -webkit-text-fill-color: transparent;
+    }
+    #about-mid-text {
+        position: absolute;
+        width: 420px;
+        height: 88px;
+        left: 360.31px;
+        top: 1168px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #about-solution-line {
+        position: absolute;
+        width: 470px;
+        height: 0px;
+        left: 285.31px;
+        top: 1217px;
+        background: #FFFFFF;
+        border: 1.6px solid #FFFFFF;
+    }
+}
