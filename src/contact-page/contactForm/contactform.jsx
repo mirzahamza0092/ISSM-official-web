@@ -15,7 +15,7 @@ return (
             <Typography id='contact-mid-text'>solution</Typography>
             <Typography id='contact-solution-line'></Typography>
         <Grid>
-            <form action="https://formsubmit.co/cd918d017615998e9fcde8beea9ca3dc" method="POST">
+            <form action="https://formsubmit.co/5f4681c76e8fd2fb254b9c1651397a39" method="POST">
                 <label>
                     Name : 
                     <br/>
