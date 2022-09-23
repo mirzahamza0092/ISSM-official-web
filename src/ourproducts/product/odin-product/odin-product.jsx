@@ -23,7 +23,6 @@ return (
                         meta-data automatically so they can focus on building valuable insights. <br/>
                         
                         <br/> <b>How Does Odin Work?</b><br/>
-
                         Odin was built to save countless hours of engineering teams by making meta-data, integrations, pipelines and data health management into a few clicks Additionally, Odin helps businesses build business semantics to form organisational ontologies and digital twins where they can run simulation of different scenarios.<br/>
                         
                         <br/> <b>Data Integration and Orchestration</b><br/>
@@ -41,7 +40,7 @@ return (
                 </Grid>
                 <Grid md={2} sm={12}>
                 <img src={require('../odin-product/odin.PNG')} id='product-viewmore2'/>
-                    <a href={pdf} className='product-link'>Click Here And Read The Document</a>
+                    <a href={pdf} className='product-link' target='_blank'>Click Here And Read The Document</a>
                 </Grid>
             </Grid>
     <Grid  style={{display:'flex'}}>

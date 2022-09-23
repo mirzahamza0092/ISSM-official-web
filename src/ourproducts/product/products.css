@@ -134,8 +134,7 @@ flex-grow: 0;
     font-family: 'Calibri';
     letter-spacing: 1px;
     align-items: center;
-    margin: 65px;
-
+    margin: 64.4px;
 }
 #second-main{
     display: flex;
@@ -248,7 +247,7 @@ text-decoration: none;
     #produtcs2 {
         display: flex;
         border: 1px solid #b3adad;
-        margin: 20px 0 0 159px;
+        margin: 65px 0 0 159px;
         width: 70%;
         border-top: none;
         border-left: none;
@@ -270,5 +269,10 @@ text-decoration: none;
         color:white;
         font-family: 'Calibri';
         margin: 0 0 0 170px;
+    }
+    #second-main{
+        display: flex;
+        background-color: #333333;
+        height: 200vh;
     }
 }

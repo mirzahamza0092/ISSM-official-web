@@ -31,25 +31,25 @@ const Root = styled('div')(({ theme }) => ({
       width:1380,
       },
     [theme.breakpoints.up('lg')]: {
-      width:1440
+      width:'100%'
     },
   }));
 
 const Home = () => {
-return(
-<>
-<Root>
-  <Navbar/>
-  <Hero/>
-  <About/>
-  <Research/>
-  <Products/>
-  <Blog/>
-  <Footer/>
-  <ScrollToTop/>
-</Root>
-</>
-)
+  return(
+    <>
+      <Root>
+        <Navbar/>
+        <Hero/>
+        <About/>
+        <Research/>
+        <Products/>
+        <Blog/>
+        <Footer/>
+        <ScrollToTop/>
+      </Root>
+    </>
+  )
 }
 
 export default Home

@@ -41,7 +41,7 @@ return (
                 </Grid>
                 <Grid md={2} sm={12}>
                     <img src={require('../product/XIVA.PNG')} id='productviewmore'/>
-                    <a href={pdf} className='product-link'>Click Here And Read The Document</a>
+                    <a href={pdf} className='product-link' target='_blank'>Click Here And Read The Document</a>
                 </Grid>
             </Grid>
     <Grid  style={{display:'flex'}}>

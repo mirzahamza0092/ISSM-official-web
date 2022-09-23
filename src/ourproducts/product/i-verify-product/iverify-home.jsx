@@ -26,7 +26,7 @@ const Ivarifyhome = () => {
           width:1380,
           },
         [theme.breakpoints.up('lg')]: {
-          width:1440
+          width:'100%'
         },
       }));
   return (

@@ -5,6 +5,7 @@ import Navbar from '../../homepage-components/navbar/navbar'
 import Footer from '../../homepage-components/footerSection/footer'
 import Products from '../product/produtcs' 
 import ScrollToTop from '../../scroltotop';
+import '../productsHome/productsHome.css'
 const ProductsHome = () => {
     const theme = createTheme({
         breakpoints: {
@@ -18,6 +19,7 @@ const ProductsHome = () => {
         },
     });
     const Root = styled('div')(({ theme }) => ({
+        
         [theme.breakpoints.down('md')]: {
         width:1260,
     
@@ -26,7 +28,7 @@ const ProductsHome = () => {
         width:1380,
         },
         [theme.breakpoints.up('lg')]: {
-        width:1440
+        width:'100%'
         },
     }));
 return (

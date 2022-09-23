@@ -5,6 +5,7 @@ import Navbar from '../../homepage-components/navbar/navbar'
 import Footer from '../../homepage-components/footerSection/footer'
 import Insight from '../insightpage/insight'
 import ScrollToTop from '../../scroltotop';
+import '../Insight-home/insightHome.css'
 const InsightHome = () => {
     const theme = createTheme({
         breakpoints: {
@@ -26,7 +27,7 @@ const InsightHome = () => {
         width:1380,
         },
         [theme.breakpoints.up('lg')]: {
-        width:1440
+        width:'100%'
         },
     }));
 return (
