@@ -5,7 +5,6 @@ import 'aos/dist/aos.css';
 import '../research-block/research.css'
 import { Items } from './researchItems'
 import {Link} from 'react-router-dom';
-import image from '../research-block/1.PNG'
 const Research = () => {
   useEffect(()=>{
     Aos.init({duration:2000});

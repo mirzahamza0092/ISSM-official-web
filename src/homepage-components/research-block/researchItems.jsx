@@ -7,7 +7,6 @@ export const Items=[
         para:'Rivers and canals flowing through cities are often used illegally for dumping trash....',
         cetagory:'Computer Vision and Graphics Lab',
         skill:'CV Department',
-        
         link:'https://arxiv.org/pdf/2007.04639.pdf',
     
     },

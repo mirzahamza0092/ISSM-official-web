@@ -14,15 +14,20 @@ return (
         <Grid id='insight-main2'>
         {Items.map((user) => {return(
                 <Grid>
-                <Grid item md={6} sm={12} id='insight-box'>
+                <Grid item md={6} sm={12} id='insight-box'
+                style={{ backgroundImage:`url(${user.image})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
+                >
                     <Grid>
-                    <Typography id='insight-box-arrow'>{user.icon}</Typography>
                     <Typography  id='insight-box-nm'>{user.id}</Typography>
                     </Grid>
                 </Grid>
                 <Grid id='insight-content-main'>
                     <Typography id='box-h-1'>{user.title}</Typography>
-                    <Typography  id='box-h-2'>{user.para}</Typography>
+                    <Typography  id='box-h-2'>{user.para}
+                    <a href={user.link} id='box-h-2' target='_blank'>
+                        Read More
+                    </a>
+                    </Typography>
                     <Typography  id='box-h-3'>{user.cetagory}</Typography>
                     <Typography  id='box-h-4'>{user.skill}</Typography>
                 </Grid>
