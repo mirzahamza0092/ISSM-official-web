@@ -1,29 +1,40 @@
 import { Grid, Typography } from '@mui/material'
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import '../research-block/research.css'
 import { Items } from './researchItems'
 import {Link} from 'react-router-dom';
-
+import image from '../research-block/1.PNG'
 const Research = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+},[]);
   return (
     <>
     <Grid id='research-main'>
         <Grid item md={12} sm={12}>
-          <Typography id='rea-h1'>insights &</Typography>
-          <Typography  id='rea-h2'>research</Typography>
+          <Typography id='rea-h1' data-aos='fade-right'>insights OR</Typography>
+          <Typography  id='rea-h2' data-aos='fade-left'>research</Typography>
           <Typography  id='rea-h2-line'></Typography><br/>
         </Grid>
         <Grid id='main'>
           {Items.map((user) => {return(
               <Grid>
-                  <Grid item md={6} sm={12} id='research-box'>
-                    <Grid>
+                  <Grid item md={6} sm={12} id='research-box'
+                  style={{ backgroundImage:`url(${user.image})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
+                  >
+                  <Grid>
                       <Typography  id='rea-box-nm'>{user.id}</Typography>
                     </Grid>
                 </Grid>
                 <Grid id='content-main'>
                   <Typography id='box-h-1'>{user.title}</Typography>
-                  <Typography  id='box-h-2'>{user.para}</Typography>
+                  <Typography  id='box-h-2'>{user.para}
+                  <a href={user.link} id='box-h-2' target='_blank'>
+                  Read More
+                  </a>
+                  </Typography>
                   <Typography  id='box-h-3'>{user.cetagory}</Typography>
                   <Typography  id='box-h-4'>{user.skill}</Typography>
                 </Grid>

@@ -116,12 +116,22 @@ color: #FFFFFF;
     right: 0%;
     top: 0%;
     bottom: 0%;
-    background: #FFFFFF;
+    background: #868181;
     width: 130px;
     height: 130px;
     border-radius: 200px;
-    margin: 660px 0 0 681px;
+    margin: 500px 0 0 681px;
+    animation-name: example;
+    animation-duration: 3s ;  
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation: example 3s infinite;
+
 }
+@keyframes example {
+    from {top: 0px;}
+    to {top: 100px; background-color: white;}
+  }
 #hero-circle-heading{
     position: absolute;
     margin: 0 0 0 700px;
@@ -243,7 +253,7 @@ color: #FFFFFF;
         width: 130px;
         height: 130px;
         border-radius: 200px;
-        margin: 560px 0 0 715px;
+        margin: 460px 0 0 715px;
     }
     #hero-issm {
         position: absolute;

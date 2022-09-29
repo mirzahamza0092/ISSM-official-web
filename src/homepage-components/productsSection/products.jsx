@@ -1,15 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { Grid, Typography } from '@mui/material'
 import {Link} from 'react-router-dom';
 import '../productsSection/products.css'
 const Products = () => {
+    useEffect(()=>{
+        Aos.init({duration:3000});
+    },[]);
 return (
     <>
         <Grid id='products-main'>
             <Grid item md={12}>
-                <Typography id='product-h1'>Our</Typography>
-                <Typography id='product-h2'>products</Typography>
-                <Typography id='products-h2-line'></Typography>
+                <Typography id='product-h1' data-aos='fade-right'>Our</Typography>
+                <Typography id='product-h2' data-aos='fade-left'>products</Typography>
+                <Typography id='products-h2-line' ></Typography>
             </Grid>
         <Grid id='second-main'>
             <Grid item md={10} sm={12} id='products-list'>

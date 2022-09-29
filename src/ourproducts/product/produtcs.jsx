@@ -1,9 +1,14 @@
 import { Grid,Typography } from '@mui/material'
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import {Link} from 'react-router-dom'
 import '../product/products.css'
 import pdf from '../product/XIVA White paper - -3.pdf'
 const Product = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    },[]);
 return (
     
     <Grid id='product-main'>
@@ -15,10 +20,10 @@ return (
         <Grid style={{display:'flex'}}>
             <Grid item md={10} sm={12} id='products-list'>
                     <Grid id="produtcs">
-                        <Typography id="products-numb">01</Typography>
-                        <Typography id="productsname">XIVA</Typography>
+                        <Typography id="products-numb" data-aos='fade-right'>01</Typography>
+                        <Typography id="productsname" data-aos='fade-left'>XIVA</Typography>
                     </Grid>
-                    <Typography id='product-para'>ISSM provides AI applications in Language Models, Computer
+                    <Typography id='product-para' data-aos='fade-left'>ISSM provides AI applications in Language Models, Computer
                     Vision, Robotics and Data Orchestration. All our applications
                     are integrated into existing technology stacks of our clients.
                     Our clients with no prior infrastructure or expertise in AI have

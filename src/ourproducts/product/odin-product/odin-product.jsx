@@ -1,9 +1,14 @@
 import { Grid,Typography } from '@mui/material'
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import {Link} from 'react-router-dom';
 import '../../product/products.css'
 import pdf from '../odin-product/Odin Whitepaper (revised)-2.pdf'
 const OdinProduct = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    },[]);
 return (
     
     <Grid id='product-main'>
@@ -15,10 +20,10 @@ return (
         <Grid style={{display:'flex'}}>
             <Grid item md={10} sm={12} id='products-list'>
                     <Grid id="produtcs">
-                        <Typography id="products-numb">03</Typography>
-                        <Typography id="productsname">odin</Typography>
+                        <Typography id="products-numb" data-aos='fade-right'>03</Typography>
+                        <Typography id="productsname"  data-aos='fade-left'>odin</Typography>
                     </Grid>
-                    <Typography id='product-para'>Data Orchestration tool to enable organizations to seamlessly integrate their data and deploy ML models. <br/>
+                    <Typography id='product-para' data-aos='fade-left'>Data Orchestration tool to enable organizations to seamlessly integrate their data and deploy ML models. <br/>
                         <br/>80% of engineering hours of data science and ML engineers is wasted in managing and integrating data piplines. Odin enables teams to ingestand manage their 
                         meta-data automatically so they can focus on building valuable insights. <br/>
                         

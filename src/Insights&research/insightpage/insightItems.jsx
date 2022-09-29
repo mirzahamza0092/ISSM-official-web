@@ -6,7 +6,7 @@ export const Items=[
         para:'When art meet technology and nature, Maquiladora studio revamp their online presence.',
         cetagory:'WEB DESIGN / WEB DEVELOPMENT',
         skill:'ARCHITECTURE',
-        icon:<ArrowForwardIcon/>
+        icon:<ArrowForwardIcon/>,
     },
     {
         id:'02',
