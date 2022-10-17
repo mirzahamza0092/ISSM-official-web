@@ -6,7 +6,7 @@ const ContactForm = () => {
     const [email,setEmail]=useState();
     const [message,setMessage]=useState();
 return (
-    <Grid id="contact-main">
+<Grid id="contact-main">
         <Grid item md={12}>
             <Typography id='contact-content'>WE BUILD IMMERSIVE <br/>
             tech &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  for<br/>
@@ -25,15 +25,15 @@ return (
                     required
                     />
                 </label>
-                <br/>
-                <label>
-                    Email :
                     <br/>
-                    <input type="email" name="email" className='form-text-lable' value={email}
-                    onChange={(event)=>setEmail(event.target.value)}
-                    placeholder='example@issm.ai.com'
-                    required />
-                </label><br/>
+                        <label>
+                            Email :
+                            <br/>
+                            <input type="email" name="email" className='form-text-lable' value={email}
+                            onChange={(event)=>setEmail(event.target.value)}
+                            placeholder='example@issm.ai.com'
+                            required />
+                        </label><br/>
                 <label>
                     Message :
                     <br/>

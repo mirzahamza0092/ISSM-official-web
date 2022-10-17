@@ -9,16 +9,16 @@ const Icons = () => {
   return (
     <>
     <Grid id='icons-maincontainer'>
-    <Grid className='main-icons'>
-    <Typography fontSize={16} marginRight={4} fontWeight='bold' letterSpacing={2} className='connect'>
-    CONNECT WITH US
-    </Typography>
-    <Typography marginRight={1}  className='icon-cursor'><FacebookOutlinedIcon/></Typography>
-    <Typography marginRight={1} className='icon-cursor'><TwitterIcon/></Typography>
-    <Typography  marginRight={1} className='icon-cursor'><YouTubeIcon/></Typography>
-    <Typography  marginRight={1} className='icon-cursor'><InstagramIcon/></Typography>
-</Grid>
-</Grid>
+      <Grid className='main-icons'>
+        <Typography fontSize={16} marginRight={4} fontWeight='bold' letterSpacing={2} className='connect'>
+        CONNECT WITH US
+        </Typography>
+        <Typography marginRight={1}  className='icon-cursor'><FacebookOutlinedIcon/></Typography>
+        <Typography marginRight={1} className='icon-cursor'><TwitterIcon/></Typography>
+        <Typography  marginRight={1} className='icon-cursor'><YouTubeIcon/></Typography>
+        <Typography  marginRight={1} className='icon-cursor'><InstagramIcon/></Typography>
+      </Grid>
+    </Grid>
 </>
   )
 }
