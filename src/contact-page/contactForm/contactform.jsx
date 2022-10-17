@@ -37,7 +37,7 @@ return (
                 <label>
                     Message :
                     <br/>
-                    <input type="message" name="message" className='form-Message-lable'
+                    <textarea name="message" className='form-Message-lable'
                     value={message}
                     onChange={(event)=>setMessage(event.target.value)}
                     required
@@ -47,19 +47,19 @@ return (
                     <input type="hidden" name="_captcha" value="false"/>
                     <input type="hidden" name="_next" value='https://issm.ai/'/>         
                 <button style={{
-                        marginTop: '35px',
-                        marginLeft: '160px',
                         width: '135px',
                         fontSize: '15px',
                         height:' 59px',
                         borderRadius: '38px',
                         backgroundColor: 'white',
-                        borderColor:'white'
+                        borderColor:'white',
+                        marginBottom:'200px'
                     }}
                     type='submit'
-                    >Submit
+                    id='contact-btn'>Submit
                     </button>
             </form>
+            
         </Grid>
 </Grid>
 )

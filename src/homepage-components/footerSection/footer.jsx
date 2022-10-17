@@ -10,11 +10,7 @@ const Footer = () => {
 return (
 <Grid id='footer-main'>
             <Grid item md={12} sm={12}>
-                    <Typography id='footer-heading1'>Computer Vision <br/> module to be<br/>
-                    seamlessly<br/>
-                    with AI Assistant</Typography>
-                    <Typography id='footer-heading2'>integrated</Typography>
-                    <Typography id='footer-heading2-line'></Typography>
+                    <Typography id='footer-heading1'>Machine Learning Lab Working on Deep Tech to Democratize AI For The Masses. </Typography>
             </Grid>
             <Grid id='footer-contents'>
                 <Grid item md={3} sm={12}>
@@ -37,7 +33,6 @@ return (
                         <Typography fontWeight={'bold'} textTransform='uppercase'>JOin the journey</Typography>
                         <Typography id='footer-para2'>Get updates on new developments in the stratosphere of Machine Learning and AI.</Typography>
                         <Typography fontWeight={'bold'} marginTop='47px'>CONTACT US</Typography>
-                        
                         <Grid style={{display:'flex'}}>
                             <Typography><FacebookOutlinedIcon/></Typography>
                             <Typography><TwitterIcon/></Typography>

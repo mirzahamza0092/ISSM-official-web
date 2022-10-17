@@ -4,6 +4,7 @@ import { styled } from '@mui/material/styles';
 import Navbar from '../../homepage-components/navbar/navbar'
 import Footer from '../../homepage-components/footerSection/footer'
 import Products from '../product/produtcs' 
+import Icons from '../../icons/icons'
 import ScrollToTop from '../../scroltotop';
 import '../productsHome/productsHome.css'
 const ProductsHome = () => {
@@ -21,7 +22,7 @@ const ProductsHome = () => {
     const Root = styled('div')(({ theme }) => ({
         
         [theme.breakpoints.down('md')]: {
-        width:1260,
+        width:'100%',
     
         },
         [theme.breakpoints.up('md')]: {
@@ -34,6 +35,7 @@ const ProductsHome = () => {
 return (
     <>
     <Root>
+    <Icons/>
     <Navbar/>
     <Products/>
     <Footer/>

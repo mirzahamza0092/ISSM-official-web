@@ -5,6 +5,7 @@ import Navbar from '../../../homepage-components/navbar/navbar'
 import Footer from '../../../homepage-components/footerSection/footer'
 import DigitalProduct from './digitalProduct'
 import ScrollToTop from '../../../scroltotop';
+import Icons from '../../../icons/icons'
 const DegitalPHome = () => {
   const theme = createTheme({
     breakpoints: {
@@ -19,7 +20,7 @@ const DegitalPHome = () => {
 });
 const Root = styled('div')(({ theme }) => ({
     [theme.breakpoints.down('md')]: {
-    width:1260,
+    width:'100%',
 
     },
     [theme.breakpoints.up('md')]: {
@@ -32,6 +33,7 @@ const Root = styled('div')(({ theme }) => ({
   return (
  <>
  <Root>
+ <Icons/>
  <Navbar/>
  <DigitalProduct/>
  <Footer/>

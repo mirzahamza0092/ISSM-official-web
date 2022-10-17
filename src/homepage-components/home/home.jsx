@@ -10,6 +10,7 @@ import Products from '../productsSection/products'
 import Blog from '../blogSection/blog'
 import Footer from '../footerSection/footer'
 import ScrollToTop from '../../scroltotop';
+import Icons from '../../icons/icons';
 import '../home/home.css'
 const theme = createTheme({
     breakpoints: {
@@ -24,7 +25,7 @@ const theme = createTheme({
 });
 const Root = styled('div')(({ theme }) => ({
     [theme.breakpoints.down('md')]: {
-    width:1260,
+    width:'100%',
 
     },
     [theme.breakpoints.up('md')]: {
@@ -39,6 +40,8 @@ const Home = () => {
   return(
     <>
       <Root>
+      <Icons/>
+
         <Navbar/>
         <Hero/>
         <About/>

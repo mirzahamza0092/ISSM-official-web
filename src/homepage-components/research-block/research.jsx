@@ -13,9 +13,9 @@ const Research = () => {
     <>
     <Grid id='research-main'>
         <Grid item md={12} sm={12}>
-          <Typography id='rea-h1' data-aos='fade-right'>insights OR</Typography>
-          <Typography  id='rea-h2' data-aos='fade-left'>research</Typography>
-          <Typography  id='rea-h2-line'></Typography><br/>
+          <Typography id='rea-heading1' data-aos='fade-right'>insights OR</Typography>
+          <Typography  id='rea-heading2' data-aos='fade-right'>Our research</Typography>
+          <Typography  id='rea-heading2-line'></Typography><br/>
         </Grid>
         <Grid id='main'>
           {Items.map((user) => {return(
@@ -34,16 +34,15 @@ const Research = () => {
                   Read More
                   </a>
                   </Typography>
-                  <Typography  id='box-h-3'>{user.cetagory}</Typography>
-                  <Typography  id='box-h-4'>{user.skill}</Typography>
+                  <Typography  id='box-h-3' textTransform='uppercase'>{user.cetagory}</Typography>
+                  <Typography  id='box-h-4' textTransform='uppercase'>{user.skill}</Typography>
                 </Grid>
               </Grid>
             )})}
       </Grid>
       <Link to='/insight'>
         <button style={{
-            marginTop: '64px',
-            marginLeft: '125px',
+            
             width: '135px',
             fontSize: '15px',
             height:' 59px',
@@ -54,7 +53,7 @@ const Research = () => {
             fontFamily:'Calibri',
             marginBottom:'75px',
             cursor:'pointer'
-          }}>
+          }} id='research-btn'>
           VIEW MORE
           </button>
         </Link>

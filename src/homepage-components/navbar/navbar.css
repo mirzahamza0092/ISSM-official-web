@@ -2,20 +2,17 @@
     background-color:transparent;
     border-bottom-color: transparent;
     box-shadow: none;
+    height: 0;
 }
 .navbar-icons{
-margin: 0 0 0 970px;
-}
-.icon-cursor{
-    cursor: pointer;
-}
+    margin: 0 0 0 970px;
+    display: flex;
+padding: -20px;
+    }
+
 /* Tab setting */
 
-@media (max-width: 768px) {
-    .navbar-icons{
-        margin: 0 0 0 750px;
-        }
-}
+
 
 
 

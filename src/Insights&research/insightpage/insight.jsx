@@ -22,14 +22,14 @@ return (
                     </Grid>
                 </Grid>
                 <Grid id='insight-content-main'>
-                    <Typography id='box-h-1'>{user.title}</Typography>
-                    <Typography  id='box-h-2'>{user.para}
-                    <a href={user.link} id='box-h-2' target='_blank'>
+                    <Typography id='insight-box-h-1' textTransform='uppercase'>{user.title}</Typography>
+                    <Typography  id='insight-box-h-2'>{user.para}
+                    <a href={user.link} id='insight-box-h-2' target='_blank'>
                         Read More
                     </a>
                     </Typography>
-                    <Typography  id='box-h-3'>{user.cetagory}</Typography>
-                    <Typography  id='box-h-4'>{user.skill}</Typography>
+                    <Typography  id='insight-box-h-3' textTransform='uppercase'>{user.cetagory}</Typography>
+                    <Typography  id='insight-box-h-4' textTransform='uppercase'>{user.skill}</Typography>
                 </Grid>
             </Grid>
             )})}

@@ -5,6 +5,7 @@ import Navbar from '../../../homepage-components/navbar/navbar'
 import Footer from '../../../homepage-components/footerSection/footer'
 import OdinProduct from './odin-product'
 import ScrollToTop from '../../../scroltotop';
+import Icons from '../../../icons/icons';
 const Odinhome = () => {
     const theme = createTheme({
         breakpoints: {
@@ -19,7 +20,7 @@ const Odinhome = () => {
     });
     const Root = styled('div')(({ theme }) => ({
         [theme.breakpoints.down('md')]: {
-        width:1260,
+        width:'100%',
     
         },
         [theme.breakpoints.up('md')]: {
@@ -32,6 +33,7 @@ const Odinhome = () => {
   return (
     <>
     <Root>
+    <Icons/>
     <Navbar/>
     <OdinProduct/>
     <Footer/>

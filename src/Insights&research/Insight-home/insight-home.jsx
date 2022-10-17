@@ -2,6 +2,7 @@ import React from 'react'
 import { Container,createTheme} from '@mui/system'
 import { styled } from '@mui/material/styles';
 import Navbar from '../../homepage-components/navbar/navbar'
+import Icons from '../../icons/icons'
 import Footer from '../../homepage-components/footerSection/footer'
 import Insight from '../insightpage/insight'
 import ScrollToTop from '../../scroltotop';
@@ -20,7 +21,7 @@ const InsightHome = () => {
     });
     const Root = styled('div')(({ theme }) => ({
         [theme.breakpoints.down('md')]: {
-        width:1260,
+        width:'100%',
     
         },
         [theme.breakpoints.up('md')]: {
@@ -33,6 +34,7 @@ const InsightHome = () => {
 return (
 <>
 <Root>
+    <Icons/>
     <Navbar/>
     <Insight/>
     <Footer/>

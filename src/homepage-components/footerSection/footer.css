@@ -1,8 +1,10 @@
 #footer-main{
     background-color:#D9D9D9;
     width: 100%;
-    height: 800px;
+    height: 100%px;
+
 }
+
 #footer-contents{
     display: flex;
 }
@@ -129,8 +131,81 @@ color: #000000;
 /* Tab setting */
 @media (max-width: 768px) {
     .footer-logo {
-        margin: 160px 0 0 40px;
+        margin: 0 0 0 240px;
     }
-   
-    
+    #footer-heading1 {
+        width: 75%;
+        height: 276px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50.4703px;
+        line-height: 100%;
+        margin: 0 0 0 145px;
+        padding: 90px 0 0 0;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        -webkit-text-stroke: 2px black;
+        -webkit-text-fill-color: transparent;
+    }
+    #footer-para {
+        width: 430.56px;
+        height: 180px;
+        margin: 60px 0 0 215px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 130%;
+    }
+    #footer-contents{
+        display: block;
+    }
+    #footer-contact {
+        margin: -174px 0 0 440px;
+    }
+    #footer-aboutUs{
+        margin: 100px 0 0 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    #footer-contents{
+        display: block;
+    }
+    #footer-heading1 {
+        width: 75%;
+        height: 276px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30.4703px;
+        line-height: 100%;
+        margin: 0 0 0 145px;
+        padding: 90px 1px 0px 0px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        -webkit-text-stroke: 2px black;
+        -webkit-text-fill-color: transparent;
+        margin: 0 0 0 75px;
+    }
+    .footer-logo {
+        margin: 0 0 0 78px;
+    }
+    #footer-para {
+        width: 70%;
+        height: 180px;
+        margin: 60px 0 0 73px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-size: 14px;
+        line-height: 130%;
+        padding: 10px;
+    }
+    #footer-aboutUs {
+        margin: 145px 0 205px 137px;
+    }
+
+
 }

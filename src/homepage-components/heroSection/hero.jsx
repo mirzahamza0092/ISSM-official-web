@@ -13,9 +13,10 @@ return (
                 <Typography id='hero-heading2'>Machines</Typography>
                 <Typography id='hero-line'></Typography>
                 <Typography id='hero-heading3'>To learn</Typography>
-                <Typography id='hero-paragraph'>ISSM AI is a company founded with the goal to have every node in our infrastructure as a machine learning model.</Typography>
+                <Typography id='hero-paragraph'>ISSM.ai  Helps Enterprises to Build Customized Machine Learning Models Through Their Own Data That Are Optimized For Their Requirements. 
+                </Typography>
                 <Typography id='hero-circle'>
-                <Typography style={{marginLeft:'30px',fontSize:'14px',marginTop:'50px'}}>Let's work</Typography>
+                <Typography className='circle-heading'>Let's work</Typography>
                 </Typography>
                 <Typography id='hero-issm'>issm.ai</Typography>
             </Grid>

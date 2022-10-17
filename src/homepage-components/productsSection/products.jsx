@@ -13,10 +13,10 @@ return (
         <Grid id='products-main'>
             <Grid item md={12}>
                 <Typography id='product-h1' data-aos='fade-right'>Our</Typography>
-                <Typography id='product-h2' data-aos='fade-left'>products</Typography>
+                <Typography id='product-h2' data-aos='fade-right'>products</Typography>
                 <Typography id='products-h2-line' ></Typography>
             </Grid>
-        <Grid id='second-main'>
+        <Grid id='second-main-homeProduct'>
             <Grid item md={10} sm={12} id='products-list'>
                 <Grid id="produtcs-1">
                     <Link to='/product' id="products-numbers">01</Link>

@@ -17,16 +17,16 @@ return (
             <Typography  id='product-h2'>products</Typography>
             <Typography  id='product-h2-line'></Typography><br/>
         </Grid>
-        <Grid style={{display:'flex'}}>
+        <Grid id='product-main2'>
             <Grid item md={10} sm={12} id='products-list'>
                     <Grid id="produtcs">
-                        <Typography id="products-numb" data-aos='fade-right'>02</Typography>
-                        <Typography id="productsname" data-aos='fade-left'>i-verify</Typography>
+                        <Typography id="products-numb">02</Typography>
+                        <Typography id="productsname">i-verify</Typography>
                     </Grid>
-                    <Typography id='product-para' data-aos='fade-left'>User Authentication tool that offers fraud detection
+                    <Typography id='product-para'>User Authentication tool that offers fraud detection
                     on behavioural patterns <br/>
                         <br/>User authentication platforms include contactless biometric, facial
-                        authentication, document verification, and voice biometrics. All of these
+                        authentication, document verification. All of these
                         platforms although available in the marketplace but fail to provide a suite that
                         connects these individual components together and provides usage statistics
                         for fraud prevention. I-Verify enables organizations to build their own custombuilt authentication pipelines with behavioral anomalies detection to ensure a
@@ -66,11 +66,11 @@ return (
                     
                 </Grid>
                 <Grid md={2} sm={12}>
-                <img src={require('../odin-product/odin.PNG')} id='product-viewmore2'/>
-                    <a href={pdf} className='product-link' target='_blank'>Click Here And Read The Document</a>
+                <img src={require('../odin-product/odin.PNG')} id='productviewmore'/>
+                    <a href={pdf} id='product-link' target='_blank'>Click Here And Read The Document</a>
                 </Grid>
             </Grid>
-    <Grid  style={{display:'flex'}}>
+    <Grid  id='product-main-box-content'>
         <Grid item md={4}>
             <Grid id='product-box-content'>
             <Typography style={{

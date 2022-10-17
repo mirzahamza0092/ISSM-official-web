@@ -1,6 +1,13 @@
+
 #product-main{
     width: 100%;
-    height: 2500px;
+    height: 100%;
+}
+#product-main2{
+    display: flex;
+}
+#product-main-box-content{
+display: flex;
 }
 #product-h1{
     width: 314.07px;
@@ -17,29 +24,7 @@
     -webkit-text-stroke: 1px #707070;
 	-webkit-text-fill-color: transparent;
 }
-#product-h2{
-    width: 310px;
-    height: 56px;
-    margin: 0 0 0 313px;
-    font-family: 'Calibri';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 160%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 0px 0 0 220px;
 
-}
-#product-h2-line{
-    width: 480px;
-    height: 0px;
-    margin: -28px 0 0 133px;
-    border: 1.6px solid #FFFFFF;
-}
 #products-numb{
     width: 24px;
     height: 30px;
@@ -110,7 +95,7 @@ flex-grow: 0;
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 160%;
     color: #FFFFFF;
     margin: 35px 0 0 204px;
@@ -215,14 +200,74 @@ text-decoration: none;
     margin: 125px 0 0 274px;
     border-top-left-radius: 90px;
 }
-.product-link{
+#product-link{
     font-Size:'15px';
     color:white;
     font-family: 'Calibri';
     margin: 0 0 0 300px;
 }
+
+
 /* Tab setting */
 @media (max-width: 768px) {
+    #product-main{
+        width: 100%;
+        height: 100%;
+    }
+    #product-main2{
+        display: block;
+        height: 100%;
+
+    }
+    #productsname {
+        height: 64px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    #product-para {
+        width: 468.64px;
+        height: 1000px;
+        left: 198px;
+        top: 408px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 160%;
+        color: #FFFFFF;
+        margin: 35px 0 0 204px;
+    }
+    #product-h2 {
+        width: 44%;
+        height: 56px;
+        margin: 0 0 0 313px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0px 0 0 220px;
+    }
+    #product-main-box-content{
+        display: block;
+        height: 100%;
+        margin:60% 0 0 0;
+        
+    }
     #productviewmore {
         width: 290px;
         height: 320px;
@@ -231,18 +276,18 @@ text-decoration: none;
         background: white;
         mix-blend-mode: normal;
         opacity: 0.2;
-        margin: 220px 0 0 160px;
+        margin: -112px 0 45px 160px;
         border-top-left-radius: 90px;
     }
     #product-box-content {
-        width: 321px;
-        height: 398px;
+        width: 230px;
+        height: 316px;
         border: 1px solid white;
         color: white;
         font-family: 'Calibri';
         letter-spacing: 1px;
         align-items: center;
-        margin: 50px;
+        margin: 0 0 0 190px;
     }
     #produtcs2 {
         display: flex;
@@ -254,25 +299,246 @@ text-decoration: none;
         border-right: none;
     }
     #product-viewmore2 {
-        width: 290px;
-        height: 320px;
+        width: 190px;
+        height: 190px;
         left: 1070px;
         top: 408px;
         background: white;
         mix-blend-mode: normal;
         opacity: 0.2;
-        margin: 125px 0 0 61px;
-        border-top-left-radius: 90px;
+        margin: 88px 0 95px 118px;
+        border-top-left-radius: 55px;
     }
-    .product-link{
-        font-Size:'15px';
-        color:white;
+    #product-link {
+        color: white;
         font-family: 'Calibri';
-        margin: 0 0 0 170px;
+        margin: 0 0 0 -264px;
     }
-    #second-main{
+    #second-main {
         display: flex;
         background-color: #333333;
-        height: 200vh;
+        height: 100%;
+        margin-top: 40px;
     }
+    #products-list {
+        margin-top: 0;
+    }
+    #products-numbers2 {
+        width: 24px;
+        height: 30px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0 0 0 -80px;
+    }
+    #products-name2 {
+        width: 300px;
+        height: 40px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        text-decoration: none;
+    }
+    
 }
+/* Mobile Setting */
+@media (max-width: 320px) { 
+    #product-main2{
+        display: block;
+        height: 100%;
+
+    }
+    #second-main {
+        display: block;
+        background-color: #333333;
+        height: 100%;
+        margin-top: 40px;
+    }
+    #productsname {
+        height: 64px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        width: 100%;
+    }
+    #product-para {
+        width: 70%;
+        height: 1000px;
+        left: 198px;
+        top: 408px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 160%;
+        color: #FFFFFF;
+        margin: 35px 0 0 80px;
+    }
+    #product-link {
+        color: white;
+        font-family: 'Calibri';
+        margin: 0px 0 0 -213px;
+    }
+    #products-numbers2 {
+        width: 24px;
+        height: 30px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0 0 0 -62px;
+    }
+    #products-name2 {
+        width: 100%;
+        height: 36px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 185%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        text-decoration: none;
+    }
+    #produtcs2 {
+        display: flex;
+        border: 1px solid #b3adad;
+        margin: 65px 0 0 159px;
+        width: 50%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    #product-viewmore2 {
+        width: 165px;
+        height: 170px;
+        left: 1070px;
+        top: 408px;
+        background: white;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+        margin: 44px 0 10px 118px;
+        border-top-left-radius: 55px;
+    }
+    
+    #productviewmore {
+        width: 200px;
+        height: 230px;
+        left: 1070px;
+        top: 408px;
+        background: white;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+        margin: -112px 0 45px 59px;
+        border-top-left-radius: 75px;
+    }
+    #product-box-content {
+        width: 230px;
+        height: 100%;
+        border: 1px solid white;
+        color: white;
+        font-family: 'Calibri';
+        letter-spacing: 1px;
+        align-items: center;
+        margin: 0 0 0 77px;
+    }
+    #product-h1 {
+        width: 50%;
+        height: 56px;
+        margin: 95px 0 0 78px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px #707070;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #product-h2 {
+        width: 55%;
+        height: 56px;
+        margin: 0 0 0 313px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0px 0 0 70px;
+    }
+    #products-h2-line {
+        width: 70%;
+        height: 0px;
+        top: 172px;
+        background: #FFFFFF;
+        border: 1.6px solid #FFFFFF;
+        margin: -24px 0 0 62px;
+    }
+    
+    #products-numb {
+        width: 24px;
+        height: 30px;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0 0 0 -90px;
+    }
+
+    }

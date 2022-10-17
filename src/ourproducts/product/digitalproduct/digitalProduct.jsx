@@ -17,13 +17,13 @@ return (
             <Typography  id='product-h2'>products</Typography>
             <Typography  id='product-h2-line'></Typography><br/>
         </Grid>
-        <Grid style={{display:'flex'}}>
+        <Grid id='product-main2'>
             <Grid item md={10} sm={12} id='products-list'>
                     <Grid id="produtcs">
-                        <Typography id="products-numb" data-aos='fade-right'>04</Typography>
-                        <Typography id="productsname" data-aos='fade-left'>Digital Eye</Typography>
+                        <Typography id="products-numb">04</Typography>
+                        <Typography id="productsname">Digital Eye</Typography>
                     </Grid>
-                    <Typography id='product-para' data-aos='fade-left'><b>AI-Powered Monitoring and Analytics to Manage
+                    <Typography id='product-para'><b>AI-Powered Monitoring and Analytics to Manage
                     Risk and Drive Operational Excellence</b><br/>
                         <br/>There are billions of camera systems currently deployed worldwide, including
                         drones, home surveillance systems, and CCTV cameras, to say nothing of mobile
@@ -41,11 +41,11 @@ return (
                     
                 </Grid>
                 <Grid md={2} sm={12}>
-                <img src={require('../digitalproduct/digital.PNG')} id='product-viewmore2'/>
-                    <a href={pdf} className='product-link' target='_blank'>Click Here And Read The Document</a>
+                <img src={require('../digitalproduct/digital.PNG')} id='productviewmore'/>
+                    <a href={pdf} id='product-link' target='_blank'>Click Here And Read The Document</a>
                 </Grid>
             </Grid>
-    <Grid  style={{display:'flex'}}>
+    <Grid  id='product-main-box-content'>
         <Grid item md={4}>
             <Grid id='product-box-content'>
             <Typography style={{

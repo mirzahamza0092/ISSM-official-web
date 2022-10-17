@@ -17,13 +17,13 @@ return (
             <Typography  id='product-h2'>products</Typography>
             <Typography  id='product-h2-line'></Typography><br/>
         </Grid>
-        <Grid style={{display:'flex'}}>
+        <Grid  id='product-main2'>
             <Grid item md={10} sm={12} id='products-list'>
                     <Grid id="produtcs">
-                        <Typography id="products-numb" data-aos='fade-right'>03</Typography>
-                        <Typography id="productsname"  data-aos='fade-left'>odin</Typography>
+                        <Typography id="products-numb">03</Typography>
+                        <Typography id="productsname">odin</Typography>
                     </Grid>
-                    <Typography id='product-para' data-aos='fade-left'>Data Orchestration tool to enable organizations to seamlessly integrate their data and deploy ML models. <br/>
+                    <Typography id='product-para'>Data Orchestration tool to enable organizations to seamlessly integrate their data and deploy ML models. <br/>
                         <br/>80% of engineering hours of data science and ML engineers is wasted in managing and integrating data piplines. Odin enables teams to ingestand manage their 
                         meta-data automatically so they can focus on building valuable insights. <br/>
                         
@@ -44,11 +44,11 @@ return (
                     
                 </Grid>
                 <Grid md={2} sm={12}>
-                <img src={require('../odin-product/odin.PNG')} id='product-viewmore2'/>
-                    <a href={pdf} className='product-link' target='_blank'>Click Here And Read The Document</a>
+                <img src={require('../odin-product/odin.PNG')} id='productviewmore'/>
+                    <a href={pdf} id='product-link' target='_blank'>Click Here And Read The Document</a>
                 </Grid>
             </Grid>
-    <Grid  style={{display:'flex'}}>
+    <Grid id='product-main-box-content'>
         <Grid item md={4}>
             <Grid id='product-box-content'>
             <Typography style={{

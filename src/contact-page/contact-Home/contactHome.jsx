@@ -5,6 +5,7 @@ import Navbar from '../../homepage-components/navbar/navbar'
 import Footer from '../../homepage-components/footerSection/footer'
 import ContactForm from '../contactForm/contactform'
 import ScrollToTop from '../../scroltotop';
+import Icons from '../../icons/icons';
 const ContactHome = () => {
     const theme = createTheme({
         breakpoints: {
@@ -19,7 +20,7 @@ const ContactHome = () => {
     });
     const Root = styled('div')(({ theme }) => ({
         [theme.breakpoints.down('md')]: {
-        width:1260,
+        width:'100%',
     
         },
         [theme.breakpoints.up('md')]: {
@@ -33,6 +34,7 @@ const ContactHome = () => {
     return (
 <>
 <Root>
+<Icons/>
 <Navbar/>
 <ContactForm/>
 <Footer/>

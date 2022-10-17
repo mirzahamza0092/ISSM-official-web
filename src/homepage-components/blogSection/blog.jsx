@@ -24,19 +24,15 @@ return (
             </Grid>
         </Grid>
         </Grid>
-        <button style={{
-            marginTop: '-200px',
-            marginLeft: '110px',
-            width: '135px',
-            fontSize: '15px',
-            height:' 59px',
+        <button
+        style={{
             borderRadius: '38px',
-            backgroundColor: 'white',
+            color: 'black',
             borderColor:'white',
             fontFamily:'Calibri',
-            marginBottom:'75px',
-            fontWeight:'bold'
-            }}>
+            cursor:'pointer'
+            }}
+        id='blog-btn'>
             More Stories
         </button>
     </Grid>
