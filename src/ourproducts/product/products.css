@@ -367,7 +367,7 @@ text-decoration: none;
     
 }
 /* Mobile Setting */
-@media (max-width: 320px) { 
+@media only screen and (max-width: 600px) { 
     #product-main2{
         display: block;
         height: 100%;
@@ -463,7 +463,7 @@ text-decoration: none;
         background: white;
         mix-blend-mode: normal;
         opacity: 0.2;
-        margin: 44px 0 10px 118px;
+        margin: 44px 0 10px 191px;
         border-top-left-radius: 55px;
         background-image: url('./viewmore.jpg');
         background-size: cover;
@@ -473,12 +473,10 @@ text-decoration: none;
     #productviewmore {
         width: 200px;
         height: 230px;
-        left: 1070px;
-        top: 408px;
         background: white;
         mix-blend-mode: normal;
         opacity: 0.2;
-        margin: 0 0 45px 59px;
+        margin: 0 0 45px 142px;
         border-top-left-radius: 75px;
     }
     #product-box-content {
@@ -489,7 +487,7 @@ text-decoration: none;
         font-family: 'Calibri';
         letter-spacing: 1px;
         align-items: center;
-        margin: 0 0 10px 63px;
+        margin: 0 0 10px 130px;
     }
     #product-h1 {
         width: 50%;
@@ -498,7 +496,7 @@ text-decoration: none;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 45px;
         line-height: 160%;
         display: flex;
         align-items: center;
@@ -514,7 +512,7 @@ text-decoration: none;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 35px;
+        font-size: 45px;
         line-height: 160%;
         display: flex;
         align-items: center;

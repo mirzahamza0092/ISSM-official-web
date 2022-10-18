@@ -376,7 +376,7 @@ text-decoration: none;
   border: 1px solid #FFFFFF;
 }
 }
-@media (max-width: 320px) {
+@media only screen and (max-width: 600px) {
   #sidebar-lh {
     position: absolute;
     width: 1416px;

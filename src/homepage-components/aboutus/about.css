@@ -125,7 +125,7 @@ margin-top: 785px;
 
 
 /* Mobile Setting */
-@media (max-width: 320px) { 
+@media only screen and (max-width: 600px) { 
 .connect{
     display: none;
 }

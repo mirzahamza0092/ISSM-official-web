@@ -170,14 +170,14 @@ label{
 
 
 /* Mobile setting */
-@media (max-width: 320px) { 
+@media only screen and (max-width: 600px) { 
     #contact-content {
         width: 75%;
         height: 264px;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 30px;
         line-height: 100%;
         display: flex;
         align-items: center;
@@ -190,11 +190,11 @@ label{
         position: absolute;
         width: 29%;
         height: 88px;
-        margin: -168px 0 0 129px;
+        margin: -159px 0 0 155px;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 30px;
         line-height: 100%;
         display: flex;
         align-items: center;
@@ -206,14 +206,14 @@ label{
         position: absolute;
         width: 34%;
         height: 0px;
-        left: 122.31px;
-        top: 250px;
+        left: 141.31px;
+        top: 259px;
         background: #FFFFFF;
         border: 1.6px solid #FFFFFF;
     }
     
     .form-text-lable {
-        width: 60%;
+        width: 75%;
         height: 100%;
         margin: 40px 0 17px 68px;
         background-color: transparent;
@@ -231,7 +231,7 @@ label{
         color: #FFFFFF;
     }
     .form-Message-lable {
-        width: 55%;
+        width: 70%;
         height: 100%;
         margin: 40px 0 17px 60px;
         background-color: transparent;

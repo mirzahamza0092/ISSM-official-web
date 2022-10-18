@@ -305,7 +305,7 @@ color: #FFFFFF;
 }
 
 /* Mobile Setting */
-@media (max-width: 320px) { 
+@media only screen and (max-width: 600px){ 
     .hero-logo {
         position: absolute;
         width: 180.29px;
@@ -325,7 +325,7 @@ color: #FFFFFF;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 900;
-        font-size: 40px;
+        font-size: 50px;
         line-height: 100%;
         display: flex;
         align-items: center;
@@ -342,7 +342,7 @@ color: #FFFFFF;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 45px;
+        font-size: 50px;
         line-height: 100%;
         display: flex;
         align-items: center;
@@ -367,7 +367,7 @@ color: #FFFFFF;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 50px;
         line-height: 100%;
         display: flex;
         align-items: center;
@@ -390,12 +390,12 @@ color: #FFFFFF;
     }
     #hero-issm {
         position: absolute;
-        left: 74.5px;
+        left: 150.5px;
         top: 765.31px;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 60px;
+        font-size: 80px;
         line-height: 160%;
         display: flex;
         align-items: center;

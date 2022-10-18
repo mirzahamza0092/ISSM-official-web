@@ -307,7 +307,7 @@ padding-left: 110px;
 
 
 /* mobile Setting */
-@media (max-width: 320px) {
+@media only screen and (max-width: 600px){
     #insight-h1 {
         width: 70%;
         height: 100%;
@@ -315,7 +315,7 @@ padding-left: 110px;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 50px;
         line-height: 160%;
         display: flex;
         align-items: center;
@@ -330,7 +330,7 @@ padding-left: 110px;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 50px;
         line-height: 160%;
         display: flex;
         align-items: center;
@@ -339,19 +339,18 @@ padding-left: 110px;
         color: #FFFFFF;
     }
     #insight-h2-line {
-        width: 237px;
+        width: 275px;
         height: 0px;
-        margin: -28px 0 0 68px;
+        margin: -40px 0 0 68px;
         border: 1.6px solid #FFFFFF;
     }
     #insight-box {
-        width: 230px;
-        height: 170px;
+        width: 290px;
+        height: 210px;
         background: #4e4e4e;
         border-top-left-radius: 50px;
-        margin: 0px 0 0 65px;
-    
-    }
+        margin: 0px 0 0 120px;
+}
     
     #insight-main2{
         display: block;
@@ -370,7 +369,7 @@ padding-left: 110px;
         flex: none;
         order: 0;
         flex-grow: 0;
-        padding-left: 125px;
+        padding-left: 180px;
     }
     #insight-box-h-2 {
         width: 60%;
@@ -384,7 +383,7 @@ padding-left: 110px;
         flex: none;
         order: 1;
         flex-grow: 0;
-        padding-left: 125px;
+        padding-left: 180px;
     }
     #insight-box-h-3 {
         width: 61%;
@@ -400,7 +399,7 @@ padding-left: 110px;
         flex: none;
         order: 0;
         flex-grow: 0;
-        padding-left: 125px;
+        padding-left: 180px;
     }
     #insight-box-h-4 {
         height: 100%;
@@ -414,7 +413,7 @@ padding-left: 110px;
         flex: none;
         order: 1;
         flex-grow: 0;
-        padding-left: 125px;
+        padding-left: 180px;
         margin: 35px 0 0 0;
     }
     #insight-box-nm {

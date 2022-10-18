@@ -169,12 +169,12 @@ color: #000000;
     }
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     #footer-contents{
         display: block;
     }
     #footer-heading1 {
-        width: 75%;
+        width: 80%;
         height: 276px;
         font-family: 'Calibri';
         font-style: normal;
@@ -191,7 +191,7 @@ color: #000000;
         margin: 0 0 0 75px;
     }
     .footer-logo {
-        margin: 0 0 0 78px;
+        margin: 55px 0 0 123px;
     }
     #footer-para {
         width: 70%;
@@ -204,7 +204,11 @@ color: #000000;
         padding: 10px;
     }
     #footer-aboutUs {
-        margin: 145px 0 205px 137px;
+        margin: 145px 0 205px 88px;
+    }
+    #footer-contact {
+        margin: -392px 0px 0px 440px;
+
     }
 
 

@@ -211,7 +211,7 @@ text-decoration: none;
 }
 
 /* Mobile Setting */
-@media (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     #products-numbers {
         width: 24px;
         height: 30px;
@@ -230,13 +230,14 @@ text-decoration: none;
         flex-grow: 0;
         margin: 0 0 0 -62px;
     }
+
     #product-viewmore {
-        width: 145px;
-        height: 175px;
+        width: 280px;
+        height: 220px;
         background: white;
         mix-blend-mode: normal;
         opacity: 0.2;
-        margin: 700px 0 0 -140px;
+        margin: 659px 0 0 -156px;
         border-top-left-radius: 70px;
         background-image: url('./viewmore.jpg');
         background-repeat: no-repeat;
