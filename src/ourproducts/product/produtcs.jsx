@@ -41,6 +41,9 @@ return (
                 <Grid style={{display:'flex',marginTop:'20px'}}>
                     <img src={require('../product/XIVA3.PNG')} width='100%' height='100%'/>
                 </Grid>
+                <Grid>
+                    
+                </Grid>
 
 
     <Grid  id='product-main-box-content'>
