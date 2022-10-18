@@ -38,6 +38,11 @@ return (
                     <a href={pdf} id='product-link' target='_blank'  data-aos='fade-right'>Click Here And Read The Document</a>
                 </Grid>
             </Grid>
+                <Grid style={{display:'flex',marginTop:'20px'}}>
+                    <img src={require('../product/XIVA3.PNG')} width='100%' height='100%'/>
+                </Grid>
+
+
     <Grid  id='product-main-box-content'>
         <Grid item md={4}>
             <Grid id='product-box-content'>
@@ -51,7 +56,7 @@ return (
                     }}>
                     Bot Builder
             </Typography>
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Easy to build Conversational
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Easy to build Conversational
             AI with:<br/>
 
             1:Zero bot detection rate<br/>
@@ -73,7 +78,7 @@ return (
             }}>Omni Channel
             </Typography>
 
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Integration and
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Integration and
             deployment of
             Conversational AI with
             social media and other
@@ -96,7 +101,7 @@ return (
             }}>
             Unsupervised Learning
                 </Typography>
-                <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Understanding the business
+                <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Understanding the business
                 semantics of each organisation
                 and updating language models
                 accordingly
@@ -126,7 +131,6 @@ return (
     <Grid md={2} sm={12}>
     <Typography id='product-viewmore2'> </Typography>
     </Grid>
-
 </Grid>
     
     </Grid>

@@ -18,7 +18,6 @@ return (
     </span>
     <div className="Menu-items">
         <Link to='/' id="sidebar-home">Home</Link>
-        <Typography id='product-line'></Typography>
         <Link to='/product'  id="sidebar-products">Products</Link>
         <Link to='/insight'  id="sidebar-insights">insights</Link> 
         <Link to='/contact'  id="sidebar-contact">Contact</Link>

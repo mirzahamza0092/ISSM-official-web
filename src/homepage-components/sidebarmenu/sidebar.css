@@ -33,16 +33,6 @@ right: 12.47%;
 top: 4.44%;
 bottom: 83.16%;
 }
-#product-line{
-  position: absolute;
-  width: 660px;
-  height: 0px;
-  left: 150px;
-  top: 344px;
-  margin: -120px 0 0 0;
-
-  border: 2px solid #FFFFFF;
-}
 #sidebar-lh{
   position: absolute;
 width: 1416px;

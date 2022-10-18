@@ -56,10 +56,19 @@ return (
                 fontSize:'20px',
                 textTransform:'uppercase'
             }}>
-            Data Lineage
+            FACIAL ATTENDANCE
             </Typography>
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>
-            This is the main pipeline for tracking the flow of data, starting from the source, following the nodes the data accesses, all the way to the final database where the data is stored after undergoing all transformations.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>
+            Traditional attendance systems mainly operate on
+                fingerprint biometrics and involve manual personnel
+                verification. As humans can be prone to error i.e they can
+                forget to mark their attendance on time due to hastiness or
+                other factors, we introduce a system that removes the
+                human in the loop and marks attendance based on facial
+                recognition. It works through a combination of AI algorithms
+                including facial detection, face landmarks detection and
+                facial features comparison.
+
             </Typography>
             </Grid>
         </Grid>
@@ -72,9 +81,16 @@ return (
                 fontFamily: 'Calibri',
                 fontSize:'20px',
                 textTransform:'uppercase'
-            }}>Data Integration
+            }}>PRIORITY CUSTOMER DETECTION
             </Typography>
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>This is the secondary data ingestion layer to which additional APIs expose their data. The data extracted is then processed for basic transformation before being forwarded to other modules.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Being a customer-centric institution helps to outgrow other
+                businesses in the competition. Providing custom
+                experiences to priority customers can lead to a better
+                customer experience. Our solution identifies customers as
+                soon as they enter the infrastructure premises through the
+                use of facial recognition and notifies relevant personnel on
+                the premises.
+
             </Typography>
             </Grid>
         </Grid>
@@ -89,9 +105,19 @@ return (
             textTransform:'uppercase'
 
         }}>
-        Metadata Management
+        PEOPLE TRAFFIC MONITORING 
             </Typography>
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>The administration of data that describes other data. It involves establishing policies and processes that ensure information can be integrated, accessed, shared, linked, analyzed and maintained effectively across the organization.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Measuring the number of people visiting a branch on a daily
+                basis can lead to a better analysis of the brand footprint in a
+                particular geographic area in addition to the number of
+                accounts or sales being maintained in a particular branch.
+                We propose a branch traffic monitoring solution that
+                measures the footfall of people on specific building
+                premises in order to quantify the value proposition of a
+                branch location. This application can also be used for
+                identifying anomalies such as the identification of days
+                when the customer footfall is low.
+
             </Typography>
             </Grid>
         </Grid>

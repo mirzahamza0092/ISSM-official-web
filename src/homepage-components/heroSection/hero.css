@@ -266,27 +266,23 @@ color: #FFFFFF;
     }
     @keyframes example {
         from {top: 0px;}
-        to {top: 100px; background-color: rgb(0, 0, 0);}
+        to {top: 100px; background-color: rgb(255, 255, 255);}
       }
-    .circle-heading{
+      .circle-heading {
         position: absolute;
         margin: 0 0 0 700px;
-        bottom: 41.2%;
+        bottom: 25.2%;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
         line-height: 15px;
         display: flex;
         align-items: flex-end;
-        text-align: center;
         letter-spacing: 0.016em;
         text-transform: uppercase;
-        color: rgb(240, 240, 240);
+        color: rgb(0, 0, 0);
         text-align: center;
-        padding: 0 0 0 12px;
-        display:none;
-    
+        padding: 0 0 0 2px;
     }
 
     #hero-issm {
@@ -316,6 +312,9 @@ color: #FFFFFF;
         height: 180.22px;
         left: 80.88px;
         top: 70.2px;
+    }
+    .circle-heading{
+        display: none;
     }
     #hero-heading {
         position: absolute;

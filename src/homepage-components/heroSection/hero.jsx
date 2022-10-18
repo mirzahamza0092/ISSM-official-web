@@ -1,5 +1,7 @@
 import { Grid, Typography } from '@mui/material'
 import React from 'react'
+import {Link} from 'react-router-dom';
+
 import '../heroSection/hero.css'
 const Hero = () => {
 return (
@@ -16,7 +18,7 @@ return (
                 <Typography id='hero-paragraph'>ISSM.ai  Helps Enterprises to Build Customized Machine Learning Models Through Their Own Data That Are Optimized For Their Requirements. 
                 </Typography>
                 <Typography id='hero-circle'>
-                <Typography className='circle-heading'>Let's work</Typography>
+                <Link to='/contact'><Typography className='circle-heading' >Let's work</Typography></Link>
                 </Typography>
                 <Typography id='hero-issm'>issm.ai</Typography>
             </Grid>

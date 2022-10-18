@@ -48,6 +48,11 @@ return (
                     <a href={pdf} id='product-link' target='_blank'>Click Here And Read The Document</a>
                 </Grid>
             </Grid>
+            <Grid style={{display:'flex',marginTop:'20px',padding:'40px'}}>
+                <img src={require('../odin-product/odin1.PNG')} width='100%' height='100%'/>
+            </Grid>
+
+
     <Grid id='product-main-box-content'>
         <Grid item md={4}>
             <Grid id='product-box-content'>
@@ -62,7 +67,7 @@ return (
             }}>
             Data Lineage
             </Typography>
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>This is the main pipeline for tracking the flow of data, starting from the source, following the nodes the data accesses, all the way to the final database where the data is stored after undergoing all transformations.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>This is the main pipeline for tracking the flow of data, starting from the source, following the nodes the data accesses, all the way to the final database where the data is stored after undergoing all transformations.
 
             </Typography>
             </Grid>
@@ -81,7 +86,7 @@ return (
             }}>Data Integration
             </Typography>
 
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>This is the secondary data ingestion layer to which additional APIs expose their data. The data extracted is then processed for basic transformation before being forwarded to other modules.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>This is the secondary data ingestion layer to which additional APIs expose their data. The data extracted is then processed for basic transformation before being forwarded to other modules.
             </Typography>
             </Grid>
         </Grid>
@@ -98,7 +103,7 @@ return (
         }}>
         Metadata Management
             </Typography>
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>The administration of data that describes other data. It involves establishing policies and processes that ensure information can be integrated, accessed, shared, linked, analyzed and maintained effectively across the organization.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>The administration of data that describes other data. It involves establishing policies and processes that ensure information can be integrated, accessed, shared, linked, analyzed and maintained effectively across the organization.
             </Typography>
             </Grid>
         </Grid>

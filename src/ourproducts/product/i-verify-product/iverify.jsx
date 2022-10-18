@@ -82,9 +82,11 @@ return (
                 textTransform:'uppercase'
 
             }}>
-            Data Lineage
+            Liveness Detection
             </Typography>
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>This is the main pipeline for tracking the flow of data, starting from the source, following the nodes the data accesses, all the way to the final database where the data is stored after undergoing all transformations.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Video information captures facial data with unique
+                markers which are used by machine learning models
+                for liveness detection
 
             </Typography>
             </Grid>
@@ -100,10 +102,13 @@ return (
                 textTransform:'uppercase'
 
 
-            }}>Data Integration
+            }}>Facial Recognition
             </Typography>
 
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>This is the secondary data ingestion layer to which additional APIs expose their data. The data extracted is then processed for basic transformation before being forwarded to other modules.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>CNIC image or live authentication used to
+            verify facial features from NADRA database.
+            This adds an additional layer of security in
+            case a fraud is detected.
             </Typography>
             </Grid>
         </Grid>
@@ -118,9 +123,17 @@ return (
             textTransform:'uppercase'
 
         }}>
-        Metadata Management
+        Document Verification
             </Typography>
-            <Typography style={{textAlign:'center',fontSize:'16px',fontFamily: 'Calibri',paddingTop:'20px'}}>The administration of data that describes other data. It involves establishing policies and processes that ensure information can be integrated, accessed, shared, linked, analyzed and maintained effectively across the organization.
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Document verification involves automatic data
+                extraction and context generation from documents
+                which can be used for document verification and
+                relevant information extraction. It uses computer
+                vision algorithms that intelligently identify which part
+                of the document contains the text for data extraction.
+                NLP and NLU algorithms are further used for text
+                summarization and data retrieval.
+
             </Typography>
             </Grid>
         </Grid>
