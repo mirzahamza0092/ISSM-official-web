@@ -174,12 +174,12 @@ color: #000000;
         display: block;
     }
     #footer-heading1 {
-        width: 80%;
+        width: 70%;
         height: 276px;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 30.4703px;
+        font-size: 25.4703px;
         line-height: 100%;
         margin: 0 0 0 145px;
         padding: 90px 1px 0px 0px;
@@ -191,7 +191,7 @@ color: #000000;
         margin: 0 0 0 75px;
     }
     .footer-logo {
-        margin: 55px 0 0 123px;
+        margin: 55px 0 0 70px;
     }
     #footer-para {
         width: 70%;
@@ -205,10 +205,11 @@ color: #000000;
     }
     #footer-aboutUs {
         margin: 145px 0 205px 88px;
+        height: 100%;
     }
     #footer-contact {
-        margin: -392px 0px 0px 440px;
-
+        margin: -146px 48px 15px 321px;
+        height: 100%;
     }
 
 

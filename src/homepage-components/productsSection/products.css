@@ -153,7 +153,7 @@ text-decoration: none;
         background: white;
         mix-blend-mode: normal;
         opacity: 0.2;
-        margin: 323px 0 0 95px;
+        margin: 270px 0 0 95px;
         border-top-left-radius: 90px;
         background-image: url('./viewmore.jpg');
         background-repeat: no-repeat;
@@ -194,7 +194,7 @@ text-decoration: none;
     }
     #products-name {
         width: 235px;
-        height: 36px;
+        height: 100%;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
@@ -232,7 +232,7 @@ text-decoration: none;
     }
 
     #product-viewmore {
-        width: 280px;
+        width: 210px;
         height: 220px;
         background: white;
         mix-blend-mode: normal;
@@ -260,7 +260,22 @@ text-decoration: none;
         flex-grow: 0;
         text-decoration: none;
     }
-   
+    #products-name {
+        width: 100%;
+        height: 100%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 185%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        text-decoration: none;
+    }
     #produtcs-1 {
         display: flex;
         border: 1px solid #b3adad;
@@ -269,5 +284,21 @@ text-decoration: none;
         border-top: none;
         border-left: none;
         border-right: none;
+    }
+    #blog-date {
+        height: 100%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 160%;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        width: 51%;
+        margin: 0 0 0 -30px;
     }
 }

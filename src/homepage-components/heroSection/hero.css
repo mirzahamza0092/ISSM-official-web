@@ -389,20 +389,20 @@ color: #FFFFFF;
         color: #FFFFFF;
     }
     #hero-issm {
-        position: absolute;
-        left: 150.5px;
-        top: 765.31px;
-        font-family: 'Calibri';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 80px;
-        line-height: 160%;
-        display: flex;
-        align-items: center;
-        letter-spacing: 4px;
-        text-transform: uppercase;
         -webkit-text-stroke: 1px #707070;
         -webkit-text-fill-color: transparent;
+        align-items: center;
+        display: flex;
+        font-family: Calibri;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        left: 85.5px;
+        letter-spacing: 4px;
+        line-height: 160%;
+        position: absolute;
+        text-transform: uppercase;
+        top: 765.31px;
     }
     #hero-circle {
         position: absolute;

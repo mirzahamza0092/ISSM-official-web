@@ -137,25 +137,26 @@ margin-top: 785px;
     color: #FFFFFF;
 }
 #about-content {
-    position: absolute;
-    width: 60%;
-    left: 80px;
-    font-family: 'Calibri';
-    font-size: 30px;
-    line-height: 100%;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
     -webkit-text-stroke: 1px #9f9f9f;
     -webkit-text-fill-color: transparent;
-    top: 35%;
+    align-items: center;
+    display: flex;
+    font-family: Calibri;
+    font-size: 25px;
+    left: 60px;
+    line-height: 100%;
+    position: absolute;
+    text-transform: uppercase;
+    top: 20%;
+    width: 75%;
 }
 #about-btn {
-    margin-top: 340px;
-    margin-left: 80px;
-    width: 135px;
+    border-width: 2px;
     font-size: 15px;
     height: 59px;
-    border-width: 2px;
+    margin-left: 60px;
+    margin-top: 280px;
+    width: 135px;
+    padding: 10px;
 }
 }
