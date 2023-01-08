@@ -1,8 +1,9 @@
 
 #hero-main{
-width: 100%;
-height: 900px;
-background-color: #4e4e4e;
+    width: 100%;
+    height: 950px;
+    background-color: #4e4e4e;
+    padding-bottom: 5%;
 }
 .icons{
     position: absolute;
@@ -100,22 +101,22 @@ border: 1.6px solid #FFFFFF;
 }
 #hero-paragraph{
     position: absolute;
-width: 328.94px;
-height: 66px;
-left: 207.1px;
-top: 621.31px;
+    width: 500.94px;
+    height: 66px;
+    left: 207.1px;
+    top: 621.31px;
 
-font-family: 'Calibri';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 120%;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+   
 /* or 22px */
 
 
 /* White */
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 #hero-circle{
     position: absolute;
@@ -127,12 +128,12 @@ color: #FFFFFF;
     width: 130px;
     height: 130px;
     border-radius: 200px;
-    margin: 500px 0 0 681px;
+    margin: 680px 0 0 831px;
     animation-name: example;
-    animation-duration: 3s ;  
+    animation-duration: 6s ;  
     animation-fill-mode: forwards;
     animation-timing-function: linear;
-    animation: example 3s infinite;
+    animation: example 6s infinite;
 
 }
 @keyframes example {
@@ -160,12 +161,12 @@ color: #FFFFFF;
 }
 #hero-issm{
     position: absolute;
-    left: 836.5px;
-    top: 659.31px;
+    left: 1080px;
+    top: 710.31px;
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 700;
-    font-size: 150px;
+    font-size: 190px;
     line-height: 160%;
     display: flex;
     align-items: center;
@@ -207,7 +208,8 @@ color: #FFFFFF;
         height: 96px;
         left: 132.88px;
         top: 389.31px;
-        font-family: 'Calibri';
+        bottom: 1000px;
+        font-family: 'lato';
         font-style: normal;
         font-weight: 700;
         font-size: 90px;
@@ -287,12 +289,12 @@ color: #FFFFFF;
 
     #hero-issm {
         position: absolute;
-        left: 300.5px;
+        left: 230.5px;
         top: 735.31px;
         font-family: 'Calibri';
         font-style: normal;
         font-weight: 700;
-        font-size: 111px;
+        font-size: 131px;
         line-height: 160%;
         display: flex;
         align-items: center;
@@ -306,6 +308,7 @@ color: #FFFFFF;
 
 /* Mobile Setting */
 @media only screen and (max-width: 600px){ 
+    
     .hero-logo {
         position: absolute;
         width: 180.29px;
@@ -315,6 +318,7 @@ color: #FFFFFF;
     }
     .circle-heading{
         display: none;
+        /* font-size: 8px; */
     }
     #hero-heading {
         position: absolute;
@@ -394,7 +398,7 @@ color: #FFFFFF;
         align-items: center;
         display: flex;
         font-family: Calibri;
-        font-size: 60px;
+        font-size: 80px;
         font-style: normal;
         font-weight: 700;
         left: 85.5px;
@@ -405,15 +409,16 @@ color: #FFFFFF;
         top: 765.31px;
     }
     #hero-circle {
-        position: absolute;
+        display: none;
+        /* position: absolute;
         background: #FFFFFF;
         width: 50px;
         height: 50px;
         border-radius: 229px;
-        margin: 640px 0 0 135px;
+        margin: 600px 0 0 135px; */
     }
     @keyframes example {
         from {top: 0px;}
-        to {top: 100px; background-color: rgb(0, 0, 0);}
+        to {top: 100px; }
       }
 }

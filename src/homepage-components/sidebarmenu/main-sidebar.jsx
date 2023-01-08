@@ -9,8 +9,8 @@ const Mainsidebar = () => {
     return (
         <>
         
-    <div className="App">
-            <div>
+    <div className="App" style={{backgroundColor:"black"}}>
+            <div >
                 <span className="material-icons menu-btn" onClick={() => setIsOpen(true)}>
                     <div>
                     <Link to='/'><img src={require('../sidebarmenu/ISSM-Logo2.png')} className='sidebar-logo'/></Link>

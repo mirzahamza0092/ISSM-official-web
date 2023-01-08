@@ -11,10 +11,10 @@ const Research = () => {
 },[]);
   return (
     <>
-    <Grid id='research-main'>
+    <Grid id='research-main' style={{paddingLeft:"2%"}}>
         <Grid item md={12} sm={12}>
-          <Typography id='rea-heading1' data-aos='fade-right'>insights OR</Typography>
-          <Typography  id='rea-heading2' data-aos='fade-right'>Our research</Typography>
+          <Typography id='rea-heading1' data-aos='fade-right' style={{fontFamily:"lato"}}>Insights &</Typography>
+          <Typography  id='rea-heading2' data-aos='fade-right' style={{fontFamily:"lato"}}>Research</Typography>
           <Typography  id='rea-heading2-line'></Typography><br/>
         </Grid>
         <Grid id='main'>
@@ -24,13 +24,13 @@ const Research = () => {
                   style={{ backgroundImage:`url(${user.image})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
                   >
                   <Grid>
-                      <Typography  id='rea-box-nm'>{user.id}</Typography>
+                      <Typography  id='rea-box-nm' style={{fontFamily:"lato"}}>{user.id}</Typography>
                     </Grid>
                 </Grid>
                 <Grid id='content-main'>
-                  <Typography id='box-h-1'>{user.title}</Typography>
-                  <Typography  id='box-h-2'>{user.para}
-                  <a href={user.link} id='box-h-2' target='_blank'>
+                  <Typography id='box-h-1' style={{fontFamily:"lato"}}>{user.title}</Typography>
+                  <Typography  id='box-h-2'style={{fontFamily:"lato"}}>{user.para}
+                  <a href={user.link} id='box-h-2' target='_blank' style={{fontFamily:"lato"}}>
                   Read More
                   </a>
                   </Typography>
@@ -42,7 +42,6 @@ const Research = () => {
       </Grid>
       <Link to='/insight'>
         <button style={{
-            
             width: '135px',
             fontSize: '15px',
             height:' 59px',
@@ -50,7 +49,7 @@ const Research = () => {
             backgroundColor: 'transparent',
             color: 'white',
             borderColor:'white',
-            fontFamily:'Calibri',
+            fontFamily:'lato',
             marginBottom:'75px',
             cursor:'pointer'
           }} id='research-btn'>

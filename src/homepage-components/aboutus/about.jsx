@@ -12,7 +12,7 @@ return (
     <>
     <Grid>
         <Grid id='about-main'>
-            <Typography id='about-content' data-aos='zoom-in-up'>We Are Building  <br/>
+            <Typography id='about-content' style={{fontFamily:"lato"}} data-aos='zoom-in-up'>We Are Building  <br/>
             The infrastructure<br/>
             For Deep Learning 
             </Typography>
@@ -22,7 +22,7 @@ return (
                 backgroundColor: 'transparent',
                 color: 'white',
                 borderColor:'white',
-                fontFamily:'Calibri',
+                fontFamily:'lato',
                 cursor:'pointer'
                 }} id='about-btn'>Contact Us
                 </button>

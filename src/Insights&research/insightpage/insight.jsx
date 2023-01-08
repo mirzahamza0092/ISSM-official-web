@@ -7,8 +7,8 @@ return (
     <>
     <Grid id='insight-main'>
         <Grid item md={12} sm={12}>
-            <Typography id='insight-h1'>insights &</Typography>
-            <Typography  id='insight-h2'>research</Typography>
+            <Typography id='insight-h1' style={{fontFamily:"lato"}}>insights &</Typography>
+            <Typography  id='insight-h2'style={{fontFamily:"lato"}}>research</Typography>
             <Typography  id='insight-h2-line'></Typography><br/>
         </Grid>
         <Grid id='insight-main2'>
@@ -18,18 +18,21 @@ return (
                 style={{ backgroundImage:`url(${user.image})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
                 >
                     <Grid>
-                    <Typography  id='insight-box-nm'>{user.id}</Typography>
+                    <Typography  id='insight-box-nm' style={{fontFamily:"lato"}}>{user.id}</Typography>
                     </Grid>
                 </Grid>
                 <Grid id='insight-content-main'>
-                    <Typography id='insight-box-h-1' textTransform='uppercase'>{user.title}</Typography>
-                    <Typography  id='insight-box-h-2'>{user.para}
-                    <a href={user.link} id='insight-box-h-2' target='_blank'>
+                    <Typography id='insight-box-h-1' textTransform='uppercase' style={{fontFamily:"lato"}}>{user.title}</Typography>
+                    <Typography  id='insight-box-h-2' style={{fontFamily:"lato"}}>{user.para}
+                    
+                    </Typography>
+                    <a href={user.link} id='insight-box-h-2' style={{fontFamily:"lato", textAlign:"left"}} target='_blank'>
                         Read More
                     </a>
-                    </Typography>
-                    <Typography  id='insight-box-h-3' textTransform='uppercase'>{user.cetagory}</Typography>
-                    <Typography  id='insight-box-h-4' textTransform='uppercase'>{user.skill}</Typography>
+                    <br />
+                    <br />
+                    <Typography  id='insight-box-h-3' textTransform='uppercase' style={{fontFamily:"lato"}}>{user.cetagory}</Typography>
+                    <Typography  id='insight-box-h-4' textTransform='uppercase' style={{fontFamily:"lato"}}>{user.skill}</Typography>
                 </Grid>
             </Grid>
             )})}

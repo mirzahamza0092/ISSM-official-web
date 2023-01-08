@@ -13,7 +13,7 @@ display: flex;
     width: 314.07px;
     height: 56px;
     margin: 95px 0 0 135px;
-    font-family: 'Calibri';
+    font-family: 'lato';
     font-style: normal;
     font-weight: 700;
     font-size: 63px;
@@ -23,6 +23,13 @@ display: flex;
     text-transform: uppercase;
     -webkit-text-stroke: 1px #707070;
 	-webkit-text-fill-color: transparent;
+}
+
+#product-h2-line{
+    width: 635px;
+    height: 0px;
+    border: 1.6px solid #FFFFFF;
+    margin: -28px 0 0 160px;
 }
 
 #products-numb{
@@ -94,9 +101,9 @@ flex-grow: 0;
     top: 408px;
     font-family: 'Calibri';
     font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 160%;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.5em;
     color: #FFFFFF;
     margin: 35px 0 0 204px;
     
@@ -112,20 +119,21 @@ flex-grow: 0;
     border-top-left-radius: 90px;
 }
 #product-box-content {
-    width: 321px;
+    width: 401px;
     height: 100%;
     border: 1px solid white;
     color: white;
     font-family: 'Calibri';
     letter-spacing: 1px;
     align-items: center;
-    margin: 40px 0 65px 110px;
+    margin: 40px 0 5px 70px;
 }
 #second-main {
     display: flex;
     background-color: #333333;
     height: 100%;
     margin: 90px 0 0 0;
+    padding-bottom: 10%;
 }
 #products-numbers2{
     width: 24px;
@@ -265,6 +273,12 @@ text-decoration: none;
         text-transform: uppercase;
         color: #FFFFFF;
         margin: 0px 0 0 220px;
+    }
+    #product-h2-line{
+        width: 435px;
+        height: 0px;
+        border: 1.6px solid #FFFFFF;
+        margin: -28px 0 0 160px;
     }
     #product-main-box-content{
         display: block;
@@ -509,7 +523,7 @@ text-decoration: none;
         width: 55%;
         height: 56px;
         margin: 0 0 0 313px;
-        font-family: 'Calibri';
+        font-family: 'lato';
         font-style: normal;
         font-weight: 700;
         font-size: 30px;
@@ -521,13 +535,13 @@ text-decoration: none;
         color: #FFFFFF;
         margin: 0px 0 0 70px;
     }
-    #products-h2-line {
+    #product-h2-line {
         width: 70%;
         height: 0px;
         top: 172px;
         background: #FFFFFF;
         border: 1.6px solid #FFFFFF;
-        margin: -24px 0 0 62px;
+        margin: -30px 0 0 62px;
     }
     
     #products-numb {
