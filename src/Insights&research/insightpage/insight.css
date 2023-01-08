@@ -1,6 +1,6 @@
 
 #insight-h1{
-    width: 414.07px;
+    width: 314.07px;
     height: 100%;
     margin: 95px 0 0 135px;
     font-family: 'Calibri';
@@ -31,9 +31,9 @@
     color: #FFFFFF;
 }
 #insight-h2-line{
-    width: 580px;
+    width: 480px;
     height: 0px;
-    margin: -48px 0 0 143px;
+    margin: -28px 0 0 133px;
     border: 1.6px solid #FFFFFF;
 }
 #insight-box{
@@ -47,9 +47,7 @@ margin: -75px 0 0 0 ;
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 500px));
     grid-gap: 0px;
-    justify-content: space-evenly;
-    margin-bottom: 10%;
-    
+    justify-content: space-around;
 }
 #insight-content-main{
     margin: 28px 0 0 -64px;

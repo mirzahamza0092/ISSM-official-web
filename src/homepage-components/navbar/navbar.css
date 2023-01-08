@@ -5,10 +5,9 @@
     height: 0;
 }
 .navbar-icons{
-        margin: 0 0 0 970px;
-        display: flex;
-        padding: -20px;
-        flex-direction: row-reverse;
+    margin: 0 0 0 970px;
+    display: flex;
+padding: -20px;
     }
 
 /* Tab setting */

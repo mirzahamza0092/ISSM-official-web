@@ -1,4 +1,4 @@
-import { Box, Grid,Typography } from '@mui/material'
+import { Grid,Typography } from '@mui/material'
 import React,{useEffect} from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -13,17 +13,17 @@ return (
     
     <Grid id='product-main'>
         <Grid item md={12} sm={12}>
-            <Typography id='product-h1' style={{fontFamily:"lato"}}>our </Typography>
-            <Typography  id='product-h2' style={{fontFamily:"lato"}}>products</Typography>
+            <Typography id='product-h1'>our </Typography>
+            <Typography  id='product-h2'>products</Typography>
             <Typography  id='product-h2-line'></Typography><br/>
         </Grid>
         <Grid id='product-main2'>
             <Grid item md={10} sm={12} id='products-list'>
                     <Grid id="produtcs">
-                        <Typography id="products-numb" data-aos='fade-right' style={{fontFamily:"lato"}}>04</Typography>
-                        <Typography id="productsname" data-aos='fade-right' style={{fontFamily:"lato"}}>Digital Eye</Typography>
+                        <Typography id="products-numb">04</Typography>
+                        <Typography id="productsname">Digital Eye</Typography>
                     </Grid>
-                    <Typography id='product-para' data-aos='fade-right' style={{fontFamily:"lato"}}><b>AI-Powered Monitoring and Analytics to Manage
+                    <Typography id='product-para'><b>AI-Powered Monitoring and Analytics to Manage
                     Risk and Drive Operational Excellence</b><br/>
                         <br/>There are billions of camera systems currently deployed worldwide, including
                         drones, home surveillance systems, and CCTV cameras, to say nothing of mobile
@@ -40,78 +40,74 @@ return (
                         </Typography>
                     
                 </Grid>
-                {/* <Grid md={2} sm={12}>
+                <Grid md={2} sm={12}>
                 <img src={require('../digitalproduct/digital.PNG')} id='productviewmore'/>
                     <a href={pdf} id='product-link' target='_blank'>Click Here And Read The Document</a>
-                </Grid> */}
+                </Grid>
             </Grid>
-            <Box 
-                sx={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    flexWrap: 'wrap',
-                    justifyContent: 'center',
-                    marginRight:"8%"
-                }}
-                data-aos='fade-right'
-            >
-                <Box id='product-box-content'>
-                    <Typography style={{
-                        fontWeight:'bold',
-                        textAlign:'center',
-                        marginTop:'45px',
-                        fontFamily: 'lato',
-                        fontSize:'20px',
-                        textTransform:'uppercase'
-                        }}>
-                            FACIAL ATTENDANCE
-                    </Typography>
-                    <Typography style={{fontSize:'18px',fontFamily: 'lato',paddingLeft:'20%',paddingRight:"20%", paddingTop:"10%", paddingBottom:"22%"}}>
-                    Traditional attendance systems mainly operate on
-                    fingerprint biometrics and involve manual personnel
-                    verification. As humans can be prone to error i.e they can
-                    forget to mark their attendance on time due to hastiness or
-                    other factors, we introduce a system that removes the
-                    human in the loop and marks attendance based on facial
-                    recognition. It works through a combination of AI algorithms
-                    including facial detection, face landmarks detection and
-                    facial features comparison.
-                    </Typography>
-                </Box>
-                <Box id='product-box-content'>
-                    <Typography style={{
-                        fontWeight:'bold',
-                        textAlign:'center',
-                        marginTop:'45px',
-                        fontFamily: 'lato',
-                        fontSize:'20px',
-                        textTransform:'uppercase'
-                        }}>
-                            PRIORITY CUSTOMER DETECTION
-                    </Typography>
-                    <Typography style={{fontSize:'18px',fontFamily: 'lato',paddingLeft:'20%',paddingRight:"20%", paddingTop:"10%", paddingBottom:"50%"}}>
-                    Being a customer-centric institution helps to outgrow other
-                    businesses in the competition. Providing custom
-                    experiences to priority customers can lead to a better
-                    customer experience. Our solution identifies customers as
-                    soon as they enter the infrastructure premises through the
-                    use of facial recognition and notifies relevant personnel on
-                    the premises.
-                    </Typography>
-                </Box>
-                <Box id='product-box-content'>
-                    <Typography style={{
-                        fontWeight:'bold',
-                        textAlign:'center',
-                        marginTop:'45px',
-                        fontFamily: 'lato',
-                        fontSize:'20px',
-                        textTransform:'uppercase'
-                        }}>
-                            PEOPLE TRAFFIC MONITORING
-                    </Typography>
-                    <Typography style={{fontSize:'18px',fontFamily: 'lato',paddingLeft:'20%',paddingRight:"20%", paddingTop:"10%", paddingBottom:"15%"}}>
-                    Measuring the number of people visiting a branch on a daily
+    <Grid  id='product-main-box-content'>
+        <Grid item md={4}>
+            <Grid id='product-box-content'>
+            <Typography style={{
+                fontWeight:'bold',
+                textAlign:'center',
+                marginTop:'45px',
+                fontFamily: 'Calibri',
+                fontSize:'20px',
+                textTransform:'uppercase'
+            }}>
+            FACIAL ATTENDANCE
+            </Typography>
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>
+            Traditional attendance systems mainly operate on
+                fingerprint biometrics and involve manual personnel
+                verification. As humans can be prone to error i.e they can
+                forget to mark their attendance on time due to hastiness or
+                other factors, we introduce a system that removes the
+                human in the loop and marks attendance based on facial
+                recognition. It works through a combination of AI algorithms
+                including facial detection, face landmarks detection and
+                facial features comparison.
+
+            </Typography>
+            </Grid>
+        </Grid>
+        <Grid item md={4}>
+            <Grid id='product-box-content'>
+            <Typography style={{
+                fontWeight:'bold',
+                textAlign:'center',
+                marginTop:'45px',
+                fontFamily: 'Calibri',
+                fontSize:'20px',
+                textTransform:'uppercase'
+            }}>PRIORITY CUSTOMER DETECTION
+            </Typography>
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Being a customer-centric institution helps to outgrow other
+                businesses in the competition. Providing custom
+                experiences to priority customers can lead to a better
+                customer experience. Our solution identifies customers as
+                soon as they enter the infrastructure premises through the
+                use of facial recognition and notifies relevant personnel on
+                the premises.
+
+            </Typography>
+            </Grid>
+        </Grid>
+        <Grid item md={4}>
+            <Grid id='product-box-content'>
+            <Typography style={{
+            fontWeight:'bold',
+            textAlign:'center',
+            marginTop:'45px',
+            fontFamily: 'Calibri',
+            fontSize:'20px',
+            textTransform:'uppercase'
+
+        }}>
+        PEOPLE TRAFFIC MONITORING 
+            </Typography>
+            <Typography style={{fontSize:'16px',fontFamily: 'Calibri',padding:'20px'}}>Measuring the number of people visiting a branch on a daily
                 basis can lead to a better analysis of the brand footprint in a
                 particular geographic area in addition to the number of
                 accounts or sales being maintained in a particular branch.
@@ -121,29 +117,33 @@ return (
                 branch location. This application can also be used for
                 identifying anomalies such as the identification of days
                 when the customer footfall is low.
-                    </Typography>
-                </Box>
 
-            </Box>
+            </Typography>
+            </Grid>
+        </Grid>
+    </Grid>
 
 
     <Grid id='second-main'>
     <Grid item md={10} sm={12} id='products-list'>
         <Grid id="produtcs2">
-            <Typography id="products-numbers2" style={{fontFamily:"lato"}}>01</Typography>
-            <Link to='/product'  id="products-name2" style={{fontFamily:"lato"}}>XIVA</Link>
+            <Typography id="products-numbers2">01</Typography>
+            <Link to='/product'  id="products-name2">XIVA</Link>
         </Grid>
         <Grid id="produtcs2">
-            <Typography id="products-numbers2" style={{fontFamily:"lato"}}>02</Typography>
-            <Link to='/iverify'  id="products-name2" style={{fontFamily:"lato"}}>I-verify</Link>
+            <Typography id="products-numbers2">02</Typography>
+            <Link to='/iverify'  id="products-name2">I-verify</Link>
         </Grid>
         <Grid id="produtcs2">
-            <Typography id="products-numbers2" style={{fontFamily:"lato"}}>03</Typography>
-            <Link to='/odin' id="products-name2" style={{fontFamily:"lato"}}>odin</Link>
+            <Typography id="products-numbers2">03</Typography>
+            <Link to='/odin' id="products-name2">odin</Link>
         </Grid>
         
     </Grid>
 
+    <Grid md={2} sm={12}>
+        <Typography id='product-viewmore2'> </Typography>
+    </Grid>
 
     </Grid>
 </Grid>

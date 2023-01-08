@@ -3,9 +3,9 @@
 height: 0;}
 .main-icons{
     color: white;
-    margin: 0 0 0 78% ;
+    margin: 0 0 0 900px ;
     display: flex;
-    padding: 50px 0 0 0;
+    padding: 90px 0 0 0;
 }
 @media (max-width: 768px) {
     .main-icons{

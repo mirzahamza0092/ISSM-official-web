@@ -5,7 +5,6 @@ body{
 #contact-main{
     width: 100%;
     height: 100%;
-    padding-left: 5%;
 }
 .contact-icons {
     float: right;
@@ -20,7 +19,7 @@ height: 264px;
 font-family: 'Calibri';
 font-style: normal;
 font-weight: 700;
-font-size: 70px;
+font-size: 88px;
 line-height: 100%;
 display: flex;
 align-items: center;
@@ -37,7 +36,7 @@ margin: 131px 0 120px 155px;
     font-family: 'Calibri';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 80px;
     line-height: 100%;
     display: flex;
     align-items: center;
@@ -47,16 +46,16 @@ margin: 131px 0 120px 155px;
 }
 #contact-solution-line {
     position: absolute;
-    width: 440px;
+    width: 470px;
     height: 0px;
-    left: 500.31px;
+    left: 400.31px;
     top: 265px;
     background: #FFFFFF;
     border: 1.6px solid #FFFFFF;
 }
 #contact-btn{
-    margin-top: 0px;
-    margin-right: 0px;
+    margin-top: 80px;
+    margin-left: 160px;
 }
 .form-text-lable{
     width: 1009.68px;
